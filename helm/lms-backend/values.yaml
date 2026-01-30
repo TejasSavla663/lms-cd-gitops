@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: tejas663/lms-backend
-  tag: "build-42"
+  tag: "1"
   pullPolicy: IfNotPresent
 
 service:
