@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: tejas663/lms-backend
+  tag: build-1
+  pullPolicy: Always
+
+env:
+  NODE_ENV: production
+
+service:
+  type: NodePort
+  port: 5000

@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: tejas663/lms-backend
+  tag: "build-42"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 5000
+
+resources: {}
+
+env:
+  NODE_ENV: production
